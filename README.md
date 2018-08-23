@@ -4,7 +4,7 @@ The Stable Matching Problem (SMP) is a classic mathematics problem that involves
 
 In the example of marriage, the problem involves a set of women and a set of men of equal size. Both women and men list in order of preference the members of the other sex. For example:
 
-<img src="/images/smp/matching.png" width="60%">
+<img src="/imgs/smp/matching.png" width="60%">
 
 The challenge is to assign men to women (or vice versa) in a way that takes into account their preferences. A matching is deemed unstable if:
 - woman A and man A are paired but woman A prefers man B **and**
@@ -12,7 +12,7 @@ The challenge is to assign men to women (or vice versa) in a way that takes into
 
 This would be considered an unstable marriage since woman A and man B simultaneously prefer each other than their respective matches. The goal is to determine the optimal assignments such that all matchings are stable.
 
-<img src="/images/smp/unstable-match.png" width="60%">
+<img src="/imgs/smp/unstable-match.png" width="60%">
 
 In 1962, David Gale and Lloyd Shapely developed an [algorithm](http://www.dtic.mil/dtic/tr/fulltext/u2/251958.pdf) to solve this problem. The algorithm works under the following assumptions:
 1. Women can only propose to men, not vice versa.
